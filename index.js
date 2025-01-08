@@ -54,7 +54,7 @@ app.use(bodyParser.json({
     limit: "50mb"
 }));
 app.use(express.static("./public"));
-
+console.log("hellos")
 app.use(async (req, res, next) => {
     res.header('Cache-Control', 'private, no-cache, max-age=3600');
     res.header('Expires', '-1');
