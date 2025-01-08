@@ -1,0 +1,9 @@
+{
+    "ignore": [
+        "assigned_counsellors.json",
+        "public/*",
+        "raw/*",
+        "log/*",
+        "node_modules/*"
+    ]
+}
